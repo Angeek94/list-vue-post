@@ -1,0 +1,19 @@
+
+<html>
+    <script src="node_modules/jquery/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="node_modules/vue-resource/dist/vue-resource.js"></script>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <body>
+        <div id='app'>
+            <input v-model="name" placeholder="name"> 
+            <input v-model="description" placeholder="description"> 
+            <input v-model="completed" placeholder="completed"> 
+            <input v-model="assignedTo" placeholder="assignedTo"> 
+            <button v-on:click="post">invia dati post</button>
+         
+    </body>
+    <script src="./app.js"></script>
+</html>
